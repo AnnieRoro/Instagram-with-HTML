@@ -1,0 +1,34 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+.header{
+    display:flex;   
+    background-color: white;
+    justify-content: center;
+    width: 100%;
+    margin:0%;    
+}
+.all-contents{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.content {
+    background-color: white;
+    width: 600px;
+}
+img{
+    width:600px;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.post-description {
+    padding: 10px;
+}
